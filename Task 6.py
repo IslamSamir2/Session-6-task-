@@ -1,0 +1,12 @@
+import numpy as np
+A= np.array([10, 20, 30, 40, 50])
+B= np.array([5, 4, 3, 2, 1])
+print("Add :",A + B)
+print("Subtract :",A - B)
+print("Multiply :",A * B)
+print("Divide :",A / B)
+print("Min A :",A.min())
+print("Max A :",A.max())
+print("Mean A :",A.mean())
+print("Dot product A :",np.dot(A,B))
+print("Reshape A ;",A.reshape(5,1))
